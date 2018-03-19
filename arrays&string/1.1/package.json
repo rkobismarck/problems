@@ -1,0 +1,11 @@
+{
+  "name": "1.1",
+  "version": "1.0.0",
+  "description": "Module to perform a unique validation of characters on a string.",
+  "main": "uniqueCharacters.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
