@@ -1,0 +1,11 @@
+{
+  "name": "compositionfp",
+  "version": "1.0.0",
+  "description": "Composition based on fp and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
