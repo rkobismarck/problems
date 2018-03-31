@@ -1,0 +1,11 @@
+{
+  "name": "listcount",
+  "version": "1.0.0",
+  "description": "Counting elements in a recursive way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
