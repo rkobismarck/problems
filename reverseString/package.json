@@ -1,0 +1,11 @@
+{
+  "name": "reverse",
+  "version": "1.0.0",
+  "description": "Reverse a string.",
+  "main": "reverseString.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}

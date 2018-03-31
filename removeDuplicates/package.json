@@ -1,0 +1,11 @@
+{
+  "name": "removeduplicates",
+  "version": "1.0.0",
+  "description": "Module to remove duplicates in a String.",
+  "main": "removeDuplicates.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
