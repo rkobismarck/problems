@@ -1,0 +1,11 @@
+{
+  "name": "decorator",
+  "version": "1.0.0",
+  "description": "Decorator pattern example.",
+  "main": "decorator.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
