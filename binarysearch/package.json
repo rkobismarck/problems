@@ -1,0 +1,11 @@
+{
+  "name": "binarysearch",
+  "version": "1.0.0",
+  "description": "Binary search algorithm & divide-conquer",
+  "main": "binarysearch.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "RCTT",
+  "license": "ISC"
+}
