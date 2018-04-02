@@ -33,8 +33,5 @@ const search = () => {
 	}
 }
 
-var app = search();
-	console.log(app.quicksort([10,5,2,3,24,45,12,45,341]))
-
-//module.exports = search();
+module.exports = search();
 
