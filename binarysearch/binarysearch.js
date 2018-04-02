@@ -15,10 +15,26 @@ const search = () => {
 			return binary(tempArray,key);
 		}
 	}
+
+	const quicksort = (argument) => {
+		if(argument.length < 2){
+			return argument
+		}else{
+			let pivot  = argument.shift();
+			let higher = argument.filter(e => e>pivot)
+			let lower  = argument.filter(e => e<=pivot)
+			return quicksort(lower).concat(pivot,quicksort(higher))
+		}
+	}
+
 	return{
-		binary
+		binary,
+		quicksort
 	}
 }
 
-module.exports = search();
+var app = search();
+	console.log(app.quicksort([10,5,2,3,24,45,12,45,341]))
+
+//module.exports = search();
 
